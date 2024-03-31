@@ -1,0 +1,57 @@
+{
+  "name": "pariaturdeserunt",
+  "version": "1.0.0",
+  "description": "A simple JS/TS for interacting with a Gotenberg API",
+  "author": "AlisonSchumm",
+  "license": "MIT",
+  "keywords": [
+    "earum",
+    "iure",
+    "puppeteer",
+    "dolore"
+  ],
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-ts-standard-pkg"
+      ],
+      [
+        "@pika/plugin-build-node",
+        {
+          "minNodeVersion": "10"
+        }
+      ]
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LelandBrakus/pariaturdeserunt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LelandBrakus/pariaturdeserunt.git/issues"
+  },
+  "homepage": "https://github.com/LelandBrakus/pariaturdeserunt.git",
+  "dependencies": {
+    "@types/node": "^10.9.0",
+    "form-data": "^2.5.1"
+  },
+  "devDependencies": {
+    "@pika/pack": "^0.5.0",
+    "@pika/plugin-build-node": "^0.7.0",
+    "@pika/plugin-ts-standard-pkg": "^0.7.0",
+    "@types/jest": "^24.0.19",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-security": "^1.16.0",
+    "tslint-config-standard-plus": "^2.3.0",
+    "typescript": "^3.6.4",
+    "yaspeller": "^6.0.2"
+  },
+  "engines": {
+    "node": ">=10.9.0"
+  }
+}
